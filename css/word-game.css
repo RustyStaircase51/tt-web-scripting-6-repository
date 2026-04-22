@@ -1,0 +1,100 @@
+body {
+background-color: #121213;
+}
+
+h1 {
+	text-align:center;
+	color: ivory;
+}
+
+nav {
+	text-align:center;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 20px;
+	color: ivory;
+	padding: 10px;
+	border: 3px solid #6a6a6b;
+}
+
+nav a:hover{
+	background-color:#6a6a6b;
+}
+
+h2 {
+	padding-top: 10px;
+	text-align: center;
+	color: ivory;
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+	text-align: center;
+	color: ivory;
+}
+
+button {
+	font-size: 20px;
+	color: ivory;
+	padding: 10px;
+	border: 3px solid #6a6a6b;
+	border-radius: 25%;
+	background-color: #121213;
+}
+#resetBtn:hover{
+	font-size: 20px;
+	color: ivory;
+	padding: 10px;
+	border: 3px solid #6a6a6b;
+	background-color: #6a6a6b;
+}
+
+/*IDs*/
+#board{
+	display:grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 5px;
+	padding: 20px;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#status {
+	font-size: 30px;
+	color: ivory;
+	
+}
+
+
+
+
+/*Classes*/
+.square{
+	border: 2px solid #6a6a6b;
+	width: 60px;
+	height: 60px;
+	font-size: 50px;
+	text-align: center;
+	color: ivory;
+}
+
+.correct{
+	background-color: #538d4e;
+}
+
+.somewhere{
+	background-color: #b59f3b;
+}
+
+.none{
+	background-color: #c93030;
+}
